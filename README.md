@@ -30,10 +30,11 @@
 
   เป็น `//com.franz.jlinker.JavaLinkCommon.sdebug = true;`
 
-  * เปิด terminal พิม (แก้ path ด้วย)
+  * เปิด terminal พิม
   ```
   path/Sneps3/GUI/buildgui
   ```
+  (แก้ path ด้วย)
 
   * ถ้ารันผ่าน จะขึ้นงี้
   ```
