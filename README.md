@@ -30,7 +30,7 @@
 
   เป็น `//com.franz.jlinker.JavaLinkCommon.sdebug = true;`
 
-  * เปิด terminal พิม
+  * เปิด terminal รัน file `buildgui`
   ```
   path/Sneps3/GUI/buildgui
   ```
