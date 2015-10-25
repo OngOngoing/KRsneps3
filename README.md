@@ -1,5 +1,4 @@
 # KRsneps3
-
 ##### 1.  โหลด sneps3.zip แตกไฟล์
 
 ##### 2.  เปิด folder ด้วย sublime, atom, etc. กด Find in Project
@@ -23,6 +22,26 @@
     (when (probe-file "sys:mlisp") (delete-file "sys:mlisp"))
     (sys:copy-file "sys:allegro-express" "sys:mlisp"))
     ```
+
+### buildGUI
+  * เปิดไปแก้ไฟล์ `Sneps3/GUI/edu/buffalo/cse/sneps3/gui/GUI2.java`
+
+  * ไป comment บรรทัดที่ 1322 `com.franz.jlinker.JavaLinkCommon.sdebug = true;`
+
+  เป็น `//com.franz.jlinker.JavaLinkCommon.sdebug = true;`
+
+  * เปิด terminal พิม (แก้ path ด้วย)
+  ```
+  path/Sneps3/GUI/buildgui
+  ```
+
+  * ถ้ารันผ่าน จะขึ้นงี้
+  ```
+  Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+  ```
 
 ### Run Sneps3
   * พิมตามนี้เลย ในเทอมีนั่น
