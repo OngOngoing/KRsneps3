@@ -1,4 +1,7 @@
 # KRsneps3
+
+##### 0.  ขอบคุณท่าน frank ก่อนเลยครัช อย่างแรก 555
+
 ##### 1.  โหลด sneps3.zip แตกไฟล์
 
 ##### 2.  เปิด folder ด้วย sublime, atom, etc. กด Find in Project คำว่า
@@ -61,6 +64,6 @@ Note: Recompile with -Xlint:unchecked for details.
            @ #x20d5c3c2>
     [condition type: jlinker-error]
     ```
-  * เปิด spotlight (<kbd>ctrl</kbd> + <kbd>space</kbd>) search `Security & Privacy`  แล้ว allow เผื่อว่า GUI.jar มันติด security
+  * __(อันนี้ไม่ชัวร์ ถ้าไม่ขึ้น ข้ามๆไปก็ได้)__ เปิด spotlight (<kbd>ctrl</kbd> + <kbd>space</kbd>) search `Security & Privacy`  แล้ว allow เผื่อว่า GUI.jar มันติด security
   * พิม `(load "/path/to/Sneps3/GUI.cl")` ใหม่อีกรอบ แล้วภาวนาให้มันรันผ่าน ( คือต้องพิมไอนี่2รอบทุกครั้งที่รันอะ รอบแรกจะ error)
   * GGWP
