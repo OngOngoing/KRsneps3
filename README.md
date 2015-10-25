@@ -31,8 +31,8 @@
     `
   * `(load "/path/to/Sneps3/sneps3.cl")` แก้ path ด้วย
   * `(in-package :snuser)`
-  * `(load "/path/to/Sneps3/GUI.cl")` พิมรอบแรกเสร็จ จะerror
-  
+  * `(load "/path/to/Sneps3/GUI.cl")` แก้ path ด้วย, พิมรอบแรกเสร็จ จะerror
+
     ``` java
       Error: #<jlinker-error java-error
             java.lang.UnsatisfiedLinkError: sun.awt.X11GraphicsEnvironment.initDisplay(Z)V
@@ -42,5 +42,5 @@
     [condition type: jlinker-error]
     ```
   * เปิด spotlight (<kbd>ctrl</kbd> + <kbd>space</kbd>) search `Security & Privacy`  แล้ว allow เผื่อว่า GUI.jar มันติด security
-  * พิม `(load "/path/to/Sneps3/GUI.cl")` ใหม่อีกรอบ แล้วภาวนาให้มันรันผ่าน
+  * พิม `(load "/path/to/Sneps3/GUI.cl")` ใหม่อีกรอบ แล้วภาวนาให้มันรันผ่าน ( คือต้องพิมไอนี่2รอบทุกครั้งที่รันอะ รอบแรกจะ error)
   * GGWP
