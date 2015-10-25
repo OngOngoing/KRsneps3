@@ -40,6 +40,8 @@
 
   เป็น `//com.franz.jlinker.JavaLinkCommon.sdebug = true;`
 
+  (ถ้าโหลดไฟล์ล่าสุดไป เราจะ comment ไว้ให้อยู่แล้ว)
+
   * เปิด terminal รัน file `buildgui` พิมตามนี้ (แก้ path Sneps3 ให้ตรงด้วย)
   ```
   cd /Users/Ong/Documents/KR/Sneps3/GUI
