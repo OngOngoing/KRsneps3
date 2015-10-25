@@ -1,7 +1,7 @@
 # KRsneps3
 ##### 1.  โหลด sneps3.zip แตกไฟล์
 
-##### 2.  เปิด folder ด้วย sublime, atom, etc. กด Find in Project
+##### 2.  เปิด folder ด้วย sublime, atom, etc. กด Find in Project คำว่า
 `/Users/Ong/Documents/KR/Sneps3`
 
 แล้ว Replace all เป็น directory Sneps3 ที่โหลดมา (ไม่มี `/` ตามหลัง Sneps3 นะ)
