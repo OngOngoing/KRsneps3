@@ -4,12 +4,19 @@
 
 ##### 1.  โหลด sneps3.zip แตกไฟล์
 
-##### 2.  เปิด folder ด้วย sublime, atom, etc. กด Find in Project คำว่า
+##### 2.  แก้ path Sneps3 ให้ตรงกับที่โหลดไว้ในเครื่อง
+ซึ่งตอนนี้ path มันเป็น `/Users/Ong/Documents/KR/Sneps3/`
+วิธีคือ
+เปิด folder ด้วย sublime, atom, etc. กด `Find in Project`(ในatom) หรือ `Find in Folder`(sublime) ด้วย คำว่า
 `/Users/Ong/Documents/KR/Sneps3`
 
-แล้ว Replace all เป็น directory Sneps3 ที่โหลดมา (ไม่มี `/` ตามหลัง Sneps3 นะ)
+แล้ว Replace all เป็น directory Sneps3 ที่โหลดมา (ไม่มี `/` ตามหลัง Sneps3 นะ) เช่น
+
+`/Users/WTF/Downloads/Sneps3`
 
 ##### 3.  เปิด Sneps3/GUI/jl-config.cl บรรทัดที่ 53 ใส่ path jdk ให้ตรงกับ jdkเครื่อง
+ปกติจะอยู่ใน `/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/` ต่างแค่เลข version
+
 
 ##### 4.  ทำตามข้อ 9, 11, 12, 13, 14b หรือไม่ก็อ่านข้างล่าง
 
@@ -33,9 +40,13 @@
 
   เป็น `//com.franz.jlinker.JavaLinkCommon.sdebug = true;`
 
-  * เปิด terminal รัน file `buildgui`
+  * เปิด terminal รัน file `buildgui` พิมตามนี้ (แก้ path Sneps3 ให้ตรงด้วย)
   ```
-  path/Sneps3/GUI/buildgui
+  cd /Users/Ong/Documents/KR/Sneps3/GUI
+  ```
+
+  ```
+  ./buildgui
   ```
   (แก้ path ด้วย)
 
@@ -52,9 +63,9 @@ Note: Recompile with -Xlint:unchecked for details.
     `
     /Applications/AllegroCLexpress.app/Contents/Resources/mlisp
     `
-  * `(load "/path/to/Sneps3/sneps3.cl")` แก้ path ด้วย
+  * `(load "/Users/Ong/Documents/KR/Sneps3/sneps3.cl")` แก้ path ด้วย
   * `(in-package :snuser)`
-  * `(load "/path/to/Sneps3/GUI.cl")` แก้ path ด้วย, พิมรอบแรกเสร็จ จะerror
+  * `(load "/Users/Ong/Documents/KR/Sneps3/GUI.cl")` แก้ path ด้วย, พิมรอบแรกเสร็จ จะerror
 
     ``` java
       Error: #<jlinker-error java-error
@@ -65,5 +76,5 @@ Note: Recompile with -Xlint:unchecked for details.
     [condition type: jlinker-error]
     ```
   * __(Optional)__ เปิด spotlight (<kbd>ctrl</kbd> + <kbd>space</kbd>) search `Security & Privacy`  แล้ว allow เผื่อว่า GUI.jar มันติด security (อันนี้ไม่ชัวร์ ถ้าไม่ขึ้น ข้ามๆไปก็ได้)
-  * พิม `(load "/path/to/Sneps3/GUI.cl")` ใหม่อีกรอบ แล้วภาวนาให้มันรันผ่าน ( คือต้องพิมไอนี่2รอบทุกครั้งที่รันอะ รอบแรกจะ error)
+  * พิม `(load "/Users/Ong/Documents/KR/Sneps3/GUI.cl")` ใหม่อีกรอบ แล้วภาวนาให้มันรันผ่าน ( คือต้องพิมไอนี่2รอบทุกครั้งที่รันอะ รอบแรกจะ error)
   * GGWP
