@@ -32,6 +32,7 @@
     (when (probe-file "sys:mlisp") (delete-file "sys:mlisp"))
     (sys:copy-file "sys:allegro-express" "sys:mlisp"))
     ```
+    ถ้ารันมัน มันจะมี T ขึ้นมาตัวนึง
 
 ### buildGUI
   * เปิดไปแก้ไฟล์ `Sneps3/GUI/edu/buffalo/cse/sneps3/gui/GUI2.java`
