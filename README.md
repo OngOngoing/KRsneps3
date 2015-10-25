@@ -14,6 +14,7 @@
 ### Allergro
 * โหลด Allergro ตามลิ้งนี้  [Download](http://franz.com/ftp/pub/acl100express/macosx86/acl100express-macosx-x86.dmg) แล้ว install  
 * รัน allergro, เปิดมาจะมี 2 tab, ไปที่ tab listener1 ก๊อบโค้ดนี้ไป paste แล้วรัน
+
     ```
     (progn
     (build-lisp-image "sys:mlisp.dxl" :case-mode :case-sensitive-lower
