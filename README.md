@@ -32,6 +32,7 @@
   * `(load "/path/to/Sneps3/sneps3.cl")` แก้ path ด้วย
   * `(in-package :snuser)`
   * `(load "/path/to/Sneps3/GUI.cl")` พิมรอบแรกเสร็จ จะerror
+  
     ``` java
       Error: #<jlinker-error java-error
             java.lang.UnsatisfiedLinkError: sun.awt.X11GraphicsEnvironment.initDisplay(Z)V
