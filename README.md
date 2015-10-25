@@ -64,6 +64,6 @@ Note: Recompile with -Xlint:unchecked for details.
            @ #x20d5c3c2>
     [condition type: jlinker-error]
     ```
-  * __(อันนี้ไม่ชัวร์ ถ้าไม่ขึ้น ข้ามๆไปก็ได้)__ เปิด spotlight (<kbd>ctrl</kbd> + <kbd>space</kbd>) search `Security & Privacy`  แล้ว allow เผื่อว่า GUI.jar มันติด security
+  * __(Optional)__ เปิด spotlight (<kbd>ctrl</kbd> + <kbd>space</kbd>) search `Security & Privacy`  แล้ว allow เผื่อว่า GUI.jar มันติด security (อันนี้ไม่ชัวร์ ถ้าไม่ขึ้น ข้ามๆไปก็ได้)
   * พิม `(load "/path/to/Sneps3/GUI.cl")` ใหม่อีกรอบ แล้วภาวนาให้มันรันผ่าน ( คือต้องพิมไอนี่2รอบทุกครั้งที่รันอะ รอบแรกจะ error)
   * GGWP
