@@ -5,7 +5,7 @@
 ##### 1.  โหลด sneps3.zip แตกไฟล์
 
 ##### 2.  แก้ path Sneps3 ให้ตรงกับที่โหลดไว้ในเครื่อง
-ซึ่งตอนนี้ path มันเป็น `/Users/Ong/Documents/KR/Sneps3/`
+ซึ่งตอนนี้ path มันเป็น `/Users/Ong/Documents/KR/Sneps3`  
 วิธีคือ
 เปิด folder ด้วย sublime, atom, etc. กด `Find in Project`(ในatom) หรือ `Find in Folder`(sublime) ด้วย คำว่า
 `/Users/Ong/Documents/KR/Sneps3`
